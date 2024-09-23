@@ -1,0 +1,224 @@
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.Header{
+  height: 50px;
+  background-color: forestgreen;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 100px;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.Main{
+  background-image: url("");
+  /* background-color: ; */
+  height: 1000px;
+  padding-top: 30px;
+  padding-left : 100px;
+  padding-right: 100px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  background-color: aquamarine;
+}
+
+.Lists{
+  width: 70%;
+  margin: 10px;
+  background-color: transparent;
+  height: 98%;
+  padding: 10px;
+}
+
+.Pending{
+  height: 50%;
+  background-color: transparent;
+  padding: 3px;
+}
+
+.Pending .HTitle{
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'Courier New', Courier, monospace, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Pending .datatable{
+  padding-top: 7px;
+  padding-bottom: 5px;
+  border-bottom: solid white 2px;
+}
+
+.Pending th{
+  width: 1.5%;
+  /* border: solid black 5px; */
+  font-size: 18px;
+  text-align: start;
+  font-weight: 500;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.Pending td{
+  width: 3.5%;
+  /* border: solid black 5px; */
+  font-size: 16px;
+  text-align: start;
+  padding-top: 9px;
+}
+
+.Pending .title{
+  width: 5%;
+  padding-left: 10px;
+}
+
+.fa-pencil{
+  color: green;
+}
+
+.fa-trash{
+  color: red;
+}
+
+.fa-regular{
+  padding-left: 20px;
+  font-size: 20px;
+  color: blue ;
+}
+
+.Pending .date{
+  width: 5%;
+}
+
+.Pending .Description{
+  width: 15%;
+}
+
+.Pending .Data{
+  height: 400px;
+  margin-top: 10px;
+  /* background-color: azure; */
+  overflow: hidden;
+  overflow-y: scroll;
+  border-bottom: solid black 3px;
+}
+
+.Data::-webkit-scrollbar{
+  width: 0px;
+}
+
+.task{
+  height: 45px;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.Completed{
+  height: 50%;
+  background-color: transparent;
+  padding: 2px;
+  /* border-bottom: solid black 3px; */
+}
+
+.Completed .HTitle{
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'Courier New', Courier, monospace, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Completed .datatable{
+  padding-top: 7px;
+  padding-bottom: 5px;
+  border-bottom: solid white 2px;
+}
+
+.Completed td{
+  width: 8%;
+  /* border: solid black 5px; */
+  font-size: 16px;
+  text-align: start;
+  padding-top: 9px;
+}
+
+.Completed th{
+  width: 2%;
+  /* border: solid black 5px; */
+  font-size: 18px;
+  text-align: start;
+  width: 5%;
+  font-weight: 500;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* color : blue */
+}
+
+.Completed .Data{
+  height: 405px;
+  margin-top: 10px;
+  /* background-color: azure; */
+  overflow-y: scroll;
+}
+
+.Completed .title{
+  padding-left: 10px;
+}
+
+.Completed .c{
+  text-align: right;
+  color: darkgray;
+  padding-right: 10px;
+}
+
+.AddEdit{
+  width: 25%;
+  margin: 10px;
+  background-color: transparent;
+  height: 50%;
+  padding: 10px;
+}
+
+.AddEdit .InputBox{
+  height: 350px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.AddEdit textarea{
+  height: 200px;
+  width: 98%;
+  padding-left: 5px;
+  margin-bottom: 10px;
+}
+
+.AddEdit .Title{
+  height: 30px;
+  width: 98%;
+  padding-left: 3px;
+  margin-bottom: 10px;
+}
+
+.AddEdit .date{
+  height: 30px;
+  width: 98%;
+  padding-left: 2.5px;
+  padding-right: 3px;
+  margin-bottom: 10px;
+}
+
+.AddEdit .submit{
+  height: 40px;
+  width: 100%;
+  background-color: cadetblue;
+  font-size: 15px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}

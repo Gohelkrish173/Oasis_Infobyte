@@ -1,0 +1,178 @@
+*{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Times New Roman', Times, serif;
+}
+
+.main-class{
+  background-color: black;
+  height: 3050px;
+  color: white;
+  /* padding: 20px;   */
+}
+
+.Title-block{
+  padding: 20px;  
+  width: auto;
+  text-align: center;
+}
+
+.Title-block .Title{
+  font-size: 70px;
+  font-weight: 500;
+}
+
+.profile-quotes{
+  margin-top: 10px;
+  width: auto;
+  height: 370px;
+  padding-bottom: 0px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-quotes .Quotes{
+  color: black;
+  font-size: 35px;
+  text-align: center;
+}
+
+.profile-quotes .Qname{
+  color: black;
+  font-size: 25px;
+  text-align: right;
+}
+
+.story{
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 30px;
+  height: 665px;
+  text-align: start;
+  font-size: 22px;
+}
+
+.story .title{
+  font-size: 45px;
+}
+
+.story li{
+  padding-bottom: 9px;
+}
+
+.Awards{
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 40px;
+  height: 100px;
+  text-align: start;
+  font-size: 25px;
+}
+
+.Awards .Title{
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+.Status{
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 40px;
+  height: 620px;
+  text-align: start;
+  font-size: 25px;
+}
+
+.Status .Title{
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.Status td{
+  /* border: solid 1px white; */
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.Status th{
+  /* border: solid 1px white; */
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.Records{
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 30px;
+  height: 210px;
+  text-align: start;
+  font-size: 25px;
+}
+
+.Records .Title{
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.Records .Data{
+  margin-top: 5px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+
+.Records td{
+  padding-right: 15px;
+  padding-bottom: 5px;
+}
+
+.marriedLife{
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 30px;
+  height: 180px;
+  text-align: start;
+  font-size: 25px;
+}
+
+.marriedLife .Title{
+  font-size: 45px;
+  margin-bottom: 20px; 
+}
+
+.lastline{
+  margin-left : 100px;
+  margin-right: 100px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  border-top: 1px solid white;
+}
+
+.video{
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 30px;
+  height: 460px;
+  text-align: start;
+  font-size: 25px; 
+}
+
+.video .Title{
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.video .Data{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
